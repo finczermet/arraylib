@@ -75,7 +75,6 @@ int arr_product(const int* arr, std::size_t n) {
   return product;
 }
 
-/*
 double arr_median(const int* arr, std::size_t n) {
   int* array = new int[n];
   double med = 0;
@@ -91,4 +90,3 @@ double arr_median(const int* arr, std::size_t n) {
   delete[] array;
   return med;
 }
-*/
