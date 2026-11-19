@@ -17,11 +17,9 @@ int main() {
   double avg = arr_average(data, n);
   assert(avg >= static_cast<double>(arr_min(data, n)));
   assert(avg <= static_cast<double>(arr_max(data, n)));
-  /*
   // Случай 4: медиана отсортированного массива
   int sorted[] = {1, 2, 3, 4, 5, 6, 7};
   assert(close(arr_median(sorted, 7), 4.0));
   std::cout << "[integration] All tests passed\n";
   return 0;
-  */
 }

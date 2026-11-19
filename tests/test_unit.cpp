@@ -19,7 +19,6 @@ int main() {
   assert(arr_count_zero(a, n) == 1);
   assert(arr_product(a, n) == 0); // в массиве есть ноль
   assert(close(arr_average(a, n), 7.0 / 6.0));
-  /*
   // Медиана чётного размера
   int b[] = {7, 1, 9, 3};
   assert(close(arr_median(b, 4), 5.0));
@@ -33,7 +32,6 @@ int main() {
   for (std::size_t i = 0; i < 4; ++i) {
     assert(src[i] == src_copy[i]);
   }
-  */
   // Произведение на маленьких значениях (без переполнения)
   int d[] = {1, 2, 3, 4};
   assert(arr_product(d, 4) == 24);

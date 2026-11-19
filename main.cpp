@@ -11,5 +11,5 @@ int main() {
   std::cout << "Negative numbers: " << arr_count_negative(data, 6) << '\n';
   std::cout << "Zeroes: " << arr_count_zero(data, 6) << '\n';
   std::cout << "Product: " << arr_product(data, 6) << '\n';
-  //std::cout << "Median: " << arr_median(data, 6) << '\n';
+  std::cout << "Median: " << arr_median(data, 6) << '\n';
 }
